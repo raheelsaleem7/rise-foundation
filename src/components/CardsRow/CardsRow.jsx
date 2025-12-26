@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, Col, Row, Container } from 'react-bootstrap';
 import './cardRow.scss';
 import img1 from '../../assets/images/card1.png';

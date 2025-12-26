@@ -1,7 +1,5 @@
-import React from 'react';
 import Slider from 'react-slick';
 import { Dropdown, Button } from 'react-bootstrap';
-import { BiChevronDown } from 'react-icons/bi';
 import './HeroSection.scss';
 import hero1 from '../../assets/images/man.jpg';
 import hero2 from '../../assets/images/man.jpg';
@@ -28,7 +26,9 @@ const HeroSection = () => {
           autoplay={false}
           {...sliderSettings}>
           {images.map((img, index) => (
-            <div key={index} className='image-left'>
+            <div
+              key={index}
+              className='image-left'>
               <img
                 src={img}
                 alt={`Hero ${index}`}
